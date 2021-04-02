@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Task4 week3</title>
+</head>
+<body>
+    <h1>Task 4: Register Form with Validation</h1>
+
+    <p style="font-size: 120%;"> <li><b>Require field </b></li></p> 
+    <p style="font-size: 120%;"> <li><b>Email format</b></li></p>
+    <p style="font-size: 120%;">  <li><b>Password length</b></li></p>
+    <p style="font-size: 120%;">  <li><b>Single select for sex</b></li></p>
+    <p style="font-size: 120%;">  <li><b>Reset button to clear data</b></li></p>
+    <p style="font-size: 120%;">  <li><b>Sent button to submit data</b></li></p>
+    <br><br>
+
+    <P style="font-size: 140%;"style="text-align: center;"><b>Register Form</b></p>
+        <label for="email">Email*</label>
+        <input type="text" name="email" id="email" required><br><br>
+        
+        <label for="pw">Password*</label>
+        <input type="password" name="pw" id="pw" required>
+        
+        <label for="cp">Confirm Password*</label>
+        <input type="password" name="cp" id="cp" required>
+        <br>
+        <p>(Min length 8 charactors)</p>
+        
+        <label for="Phone">Phone*</label>
+        <input type="number" name="Phone" id="Phone" required><br>
+        
+        <label for="sex">Sex</label>
+        <input type="radio" name="Male" id="Male" required>
+        <label for="Male">Male</label>
+        <input type="radio" name="Female" id="Female" required>
+        <label for="Female">Female</label>
+        <br>
+        <input type="reset" value="Clear" >
+        <input type="submit" value="Send" >
+
+</body>
